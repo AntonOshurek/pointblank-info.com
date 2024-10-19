@@ -17,11 +17,12 @@ export default defineConfig({
             // Each item here is one entry in the navigation menu.
             { label: "Люксвиль", slug: "maps/luxvile" },
             { label: "Деловой центр", slug: "maps/dc" },
+            { label: "Мидтаун", slug: "maps/midtown" },
           ],
         },
         {
           label: "Звания",
-          autogenerate: { directory: "reference" },
+          autogenerate: { directory: "ranks" },
         },
       ],
     }),
