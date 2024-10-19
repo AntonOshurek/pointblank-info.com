@@ -8,17 +8,19 @@ export default defineConfig({
       title: "PointBlank Info",
       social: {
         github: "https://github.com/AntonOshurek/pointblank-info.com",
+        linkedin: "https://www.linkedin.com/in/anton-oshurek/",
       },
       sidebar: [
         {
-          label: "Info",
+          label: "Карты",
           items: [
             // Each item here is one entry in the navigation menu.
-            { label: "Example Guide", slug: "info/example" },
+            { label: "Люксвиль", slug: "maps/luxvile" },
+            { label: "Деловой центр", slug: "maps/dc" },
           ],
         },
         {
-          label: "Reference",
+          label: "Звания",
           autogenerate: { directory: "reference" },
         },
       ],
