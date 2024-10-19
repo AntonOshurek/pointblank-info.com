@@ -31,6 +31,10 @@ export default defineConfig({
           label: "Звания",
           autogenerate: { directory: "ranks" },
         },
+        {
+          label: "Скилы",
+          autogenerate: { directory: "skills" },
+        },
       ],
     }),
   ],
