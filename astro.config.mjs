@@ -18,6 +18,7 @@ export default defineConfig({
             { label: "Люксвиль", slug: "maps/luxvile" },
             { label: "Деловой центр", slug: "maps/dc" },
             { label: "Мидтаун", slug: "maps/midtown" },
+            { label: "Взрыв в городе", slug: "maps/wwg" },
           ],
         },
         {
