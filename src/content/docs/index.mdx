@@ -1,5 +1,5 @@
 ---
-title: Welcome to PointBlank Info
+title: Добро пожаловать в PointBlank Info
 description: Сайт посвящён информации об игре PoinBlank
 template: splash
 hero:
@@ -8,25 +8,37 @@ hero:
     file: ../../assets/pb-logo.webp
   actions:
     - text: Начни изучать
-      link: /info/example/
+      link: /maps/luxvile/
       icon: right-arrow
 ---
 
-{/* import { Card, CardGrid } from '@astrojs/starlight/components'; */}
-
-{/* ## Next steps
+import { Card, CardGrid, LinkCard } from '@astrojs/starlight/components';
 
 <CardGrid stagger>
-	<Card title="Update content" icon="pencil">
-		Edit `src/content/docs/index.mdx` to see this page change.
+	<Card title="Карты в Point Blank" icon="open-book">
+		На этой странице вы можете увидеть информацию о доступных картах в Point Blank. В каждой карте свои уникальные особенности, которые влияют на геймплей.
+
+		<LinkCard
+			title="Все карты"
+			href="/maps/luxvile/"
+		/>
 	</Card>
-	<Card title="Add new content" icon="add-document">
-		Add Markdown or MDX files to `src/content/docs` to create new pages.
+
+	<Card title="Звания" icon="star">
+		Раздел, посвящённый званиям, которые игроки могут получать в Point Blank. Узнайте, как продвигаться по карьерной лестнице и открывать новые возможности.
+
+		<LinkCard
+			title="Все звания"
+			href="/ranks/ranks/"
+		/>
 	</Card>
-	<Card title="Configure your site" icon="setting">
-		Edit your `sidebar` and other config in `astro.config.mjs`.
+
+	<Card title="Скилы/Перки" icon="rocket">
+		В Point Blank доступна система прокачки персонажа с использованием различных скилов и перков. Это позволяет адаптировать вашего героя под ваш стиль игры.
+
+		<LinkCard
+			title="Все скилы"
+			href="/skills/skills/"
+		/>
 	</Card>
-	<Card title="Read the docs" icon="open-book">
-		Learn more in [the Starlight Docs](https://starlight.astro.build/).
-	</Card>
-</CardGrid> */}
+</CardGrid>

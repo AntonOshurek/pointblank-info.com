@@ -8,18 +8,32 @@ export default defineConfig({
       title: "PointBlank Info",
       social: {
         github: "https://github.com/AntonOshurek/pointblank-info.com",
+        linkedin: "https://www.linkedin.com/in/anton-oshurek/",
       },
       sidebar: [
         {
-          label: "Info",
+          label: "Карты",
           items: [
             // Each item here is one entry in the navigation menu.
-            { label: "Example Guide", slug: "info/example" },
+            { label: "Люксвиль", slug: "maps/luxvile" },
+            { label: "Деловой центр", slug: "maps/dc" },
+            { label: "Мидтаун", slug: "maps/midtown" },
+            { label: "Взрыв в городе", slug: "maps/wwg" },
+            { label: "Метро", slug: "maps/metro" },
+            { label: "Буря в пустыне", slug: "maps/sand-storm" },
+            { label: "Прованс", slug: "maps/provance" },
+            { label: "Убежище", slug: "maps/shelter" },
+            { label: "Наблюдательный пост", slug: "maps/observation-post" },
+            { label: "Пригород Багдада", slug: "maps/suburb-of-baghdad" },
           ],
         },
         {
-          label: "Reference",
-          autogenerate: { directory: "reference" },
+          label: "Звания",
+          autogenerate: { directory: "ranks" },
+        },
+        {
+          label: "Скилы",
+          autogenerate: { directory: "skills" },
         },
       ],
     }),
