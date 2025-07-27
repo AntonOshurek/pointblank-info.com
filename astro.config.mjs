@@ -4,7 +4,6 @@ import starlight from "@astrojs/starlight";
 // https://astro.build/config
 export default defineConfig({
   site: "https://pointblank-info.com",
-  integrations: [starlight({ title: "Site with sitemap" })],
   integrations: [
     starlight({
       title: "PointBlank Info",
