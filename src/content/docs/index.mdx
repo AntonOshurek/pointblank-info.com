@@ -12,9 +12,13 @@ hero:
       icon: right-arrow
 ---
 
-import { Card, CardGrid, LinkCard } from '@astrojs/starlight/components';
+import { Card, CardGrid, LinkCard, Badge } from '@astrojs/starlight/components';
 
 <CardGrid stagger>
+    <Card title="Лучшие игроки" icon="seti:info">
+        <Badge text="New" size="large" />
+        игрок под ником Bro*Sok ГЕНИЙ ЭТОЙ ИГРЫ!
+    </Card>
 	<Card title="Карты в Point Blank" icon="open-book">
 		На этой странице вы можете увидеть информацию о доступных картах в Point Blank. В каждой карте свои уникальные особенности, которые влияют на геймплей.
 
