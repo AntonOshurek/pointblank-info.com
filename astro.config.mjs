@@ -7,10 +7,10 @@ export default defineConfig({
   integrations: [
     starlight({
       title: "PointBlank Info",
-      social: {
-        github: "https://github.com/AntonOshurek/pointblank-info.com",
-        linkedin: "https://www.linkedin.com/in/anton-oshurek/",
-      },
+      social: [
+      { icon: 'github', label: 'GitHub', href: 'https://github.com/AntonOshurek/pointblank-info.com' },
+      { icon: 'linkedin', label: 'Linkedin', href: 'https://www.linkedin.com/in/anton-oshurek/' },
+      ],
       sidebar: [
         {
           label: "Карты",
