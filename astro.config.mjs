@@ -42,7 +42,13 @@ export default defineConfig({
                 },
                 {
                   label: "Кланы",
-                  autogenerate: { directory: "clans" },
+                    badge: { text: 'Новое', variant: 'success' },
+                  autogenerate: { directory: "clans"  },
+                },
+                {
+                    label: "Игроки",
+                    badge: { text: 'Новое', variant: 'success' },
+                    autogenerate: { directory: "players"  },
                 },
             ],
         }),
