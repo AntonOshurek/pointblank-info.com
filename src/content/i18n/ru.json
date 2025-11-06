@@ -1,0 +1,13 @@
+{
+  "tableOfContents.onThisPage": "На этой странице",
+  "tableOfContents.overview": "Обзор",
+  "skipLink.label": "Перейти к содержанию",
+  "search.label": "Поиск",
+  "themeSelect.accessibleLabel": "Тема",
+  "themeSelect.dark": "Тёмная",
+  "themeSelect.light": "Светлая",
+  "themeSelect.auto": "Авто",
+  "page.previousLink": "Назад",
+  "page.nextLink": "Далее",
+  "builtWithStarlight.label": "Сайт на Starlight"
+}
