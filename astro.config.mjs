@@ -7,10 +7,10 @@ export default defineConfig({
     integrations: [
         starlight({
             title: "PointBlank Info",
-            head: [
-                { tag: "meta", attrs: { name: "robots", content: "noindex, nofollow" } },
-                { tag: "meta", attrs: { name: "googlebot", content: "noindex, nofollow" } }
-            ],
+            // head: [
+            //     { tag: "meta", attrs: { name: "robots", content: "noindex, nofollow" } },
+            //     { tag: "meta", attrs: { name: "googlebot", content: "noindex, nofollow" } }
+            // ],
             social: [
             { icon: 'github', label: 'GitHub', href: 'https://github.com/AntonOshurek/pointblank-info.com' },
             { icon: 'linkedin', label: 'Linkedin', href: 'https://www.linkedin.com/in/anton-oshurek/' },
