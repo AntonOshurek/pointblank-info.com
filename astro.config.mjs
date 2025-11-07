@@ -54,6 +54,11 @@ export default defineConfig({
                     badge: { text: 'Новое', variant: 'success' },
                     autogenerate: { directory: "players"  },
                 },
+                {
+                    label: "Сообщество",
+                    badge: { text: 'Новое', variant: 'success' },
+                    autogenerate: { directory: "about"  },
+                },
             ],
         }),
     ],
