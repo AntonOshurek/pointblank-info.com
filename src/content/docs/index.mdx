@@ -13,11 +13,29 @@ hero:
 ---
 
 import { Card, CardGrid, LinkCard, Badge } from '@astrojs/starlight/components';
+import IndexFooter from '../../components/index-footer.mdx'
 
 <CardGrid stagger>
-    <Card title="Лучшие игроки" icon="seti:info">
+    <Card title="Нечестные кланы" icon="warning">
+        <Badge text="Обновлено" size="large" />
+        <p>
+            Список кланов Point Blank, замеченных в нечестной игре — использование макросов, читов и других запрещённых методов.
+        </p>
+        <LinkCard
+            title="Перейти к списку"
+            href="/clans/bad-clans/"
+        />
+    </Card>
+
+    <Card title="Нечестные игроки" icon="warning">
         <Badge text="New" size="large" />
-        игрок под ником Bro*Sok ГЕНИЙ ЭТОЙ ИГРЫ!
+        <p>
+            Игроки, неоднократно замеченные в нечестной игре: читы, макросы, баги и другие нарушения. Основано на реальных боях.
+        </p>
+        <LinkCard
+            title="Смотреть рейтинг"
+            href="/players/bad-players/"
+        />
     </Card>
 	<Card title="Карты в Point Blank" icon="open-book">
 		На этой странице вы можете увидеть информацию о доступных картах в Point Blank. В каждой карте свои уникальные особенности, которые влияют на геймплей.
@@ -46,3 +64,5 @@ import { Card, CardGrid, LinkCard, Badge } from '@astrojs/starlight/components';
 		/>
 	</Card>
 </CardGrid>
+
+<IndexFooter/>
